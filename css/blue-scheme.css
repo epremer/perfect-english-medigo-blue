@@ -16,7 +16,7 @@ body {
   font-weight: normal;
   font-style: normal;
   line-height: 28px;
-  color: #777777;
+  color: black;
   -webkit-font-smoothing: antialiased;
   /* Fix for webkit rendering */
   -webkit-text-size-adjust: 100%;
@@ -443,7 +443,7 @@ input.mainBtn {
 }
 
 #homeIntro {
-  background-image: url("../images/includes/homeintro.jpg");
+  background-image: url("../images/teach-kids.jpg");
 }
 
 #portfolio {
@@ -831,7 +831,9 @@ blockquote {
 }
 
 .static-info-project {
-  background-color: #f1f4f5;
+  background-color: #31373a;
+  color: white;
+  font-weight: bold;
   padding: 80px 0;
   text-align: center;
 }
@@ -1003,12 +1005,12 @@ blockquote {
   height: auto;
 }
 .post-blog .blog-content span {
-  color: #aaaaaa;
+  color: black;
   margin-right: 10px;
   font-size: 14px;
 }
 .post-blog .blog-content span a {
-  color: #aaaaaa;
+  color: black;
 }
 .post-blog .blog-content span a:hover {
   color: #00a8d6;
@@ -1020,7 +1022,7 @@ blockquote {
   font-weight: 600;
 }
 .post-blog .blog-content h3 a {
-  color: #31373a;
+  color: black;
 }
 .post-blog .blog-content h3 a:hover {
   color: #00a8d6;
