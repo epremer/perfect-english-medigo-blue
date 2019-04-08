@@ -940,9 +940,24 @@ blockquote {
 .thumb-post {
   height: auto;
 }
+
 .thumb-post img {
   width: 100%;
   height: auto;
+}
+
+@media (max-width: 767px) {
+  .thumb-post img  {
+    width: 50%;
+    height: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .thumb-post img  {
+    width: 100%;
+    height: auto;
+  }
 }
 
 /*------------------------------------------------------
@@ -1028,7 +1043,7 @@ blockquote {
   color: #00a8d6;
 }
 
-.meta-date:after, .meta-comments:after {
+.meta-date:after, .meta-author:after {
   content: '/';
   margin-left: 10px;
 }
@@ -1071,46 +1086,6 @@ blockquote {
 }
 #blog-author .blog-author-info h4.author-name a {
   color: #31373a;
-}
-
-#blog-comments {
-  margin-top: 60px;
-  margin-bottom: 100px;
-}
-#blog-comments .blog-comments-content {
-  margin-top: 50px;
-}
-#blog-comments .media {
-  display: block;
-  margin-top: 30px;
-  border-bottom: 1px solid #dce4e6;
-}
-#blog-comments .media .media {
-  padding-top: 30px;
-  border-top: 1px solid #dce4e6;
-  border-bottom: 0;
-}
-#blog-comments .media-object {
-  margin-right: 10px;
-}
-#blog-comments .media-heading h4 {
-  display: inline-block;
-  margin: 0 15px 0 0;
-  font-size: 16px;
-  font-weight: 600;
-}
-#blog-comments .media-heading a {
-  color: #aaaaaa;
-  font-size: 14px;
-}
-#blog-comments .media-heading a span:after {
-  content: '/';
-  color: #aaaaaa;
-  font-size: 13px;
-  margin: 0 10px;
-}
-#blog-comments .media-heading a span:last-of-type:after {
-  content: '';
 }
 
 .comment-form {
@@ -1372,4 +1347,40 @@ blockquote {
     width: 100%;
     height: auto;
   }
+}
+
+/*------------------------------------------------------
+	PERFECT ENGLISH BUTTON
+--------------------------------------------------------*/
+
+.pe_button {
+  border: 3px solid white;
+  border-color: #00a8d6;
+  background-color: #31373a;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  min-width: 200px;
+}
+
+.pe_button:hover {
+  background-color: #00a8d6;
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center:
+}
+
+@media only screen and (max-width: 764px) {
+  .flex-container {
+    display: block;
+  }
+}
+
+.pad-30-r {
+  padding-right: 30px;
 }
