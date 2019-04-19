@@ -46,7 +46,7 @@ require('constant.php');
 		  }	
 	}
 	// EMAIL TO BE CONTACTED //
-	$toEmail = "lizz4him@gmail.com";
+	$toEmail = "lizz4him@gmail.com";  // change this email to wherever you want messages to be sent
 	$mailHeaders = "From: " . $user_name . "<" . $user_email . ">\r\n";
 	$mailBody = "User Name: " . $user_name . "\n";
 	$mailBody .= "User Email: " . $user_email . "\n";
@@ -54,7 +54,7 @@ require('constant.php');
 	$mailBody .= "Content: " . $content . "\n";
 
 	if (mail($toEmail, "Contact Mail", $mailBody, $mailHeaders)) {
-	    $output = json_encode(array('type'=>'message', 'text' => 'Hi '.$user_name .', thank you for the comments. We will get back to you shortly.'));
+	    $output = json_encode(array('type'=>'message', 'text' => 'Hi '.$user_name .', thank you for contacting us. We will get back to you shortly.'));
 	    die($output);
 	} else {
 	    $output = json_encode(array('type'=>'error', 'text' => 'Unable to send email, please contact'.SENDER_EMAIL));
