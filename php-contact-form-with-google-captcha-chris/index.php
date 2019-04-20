@@ -26,15 +26,15 @@ require('constant.php');
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 	<!-- Stylesheets -->
-	<link rel="stylesheet" href="/bootstrap/bootstrap.css">
-	<link rel="stylesheet" href="/css/misc.css">
-	<link rel="stylesheet" href="/css/blue-scheme.css">
+	<link rel="stylesheet" href="../bootstrap/bootstrap.css">
+	<link rel="stylesheet" href="../css/misc.css">
+	<link rel="stylesheet" href="../css/blue-scheme.css">
 	
 	<!-- JavaScripts -->
-	<script src="/js/jquery-1.10.2.min.js"></script>
-	<script src="/js/jquery-migrate-1.2.1.min.js"></script>
+	<script src="../js/jquery-1.10.2.min.js"></script>
+	<script src="../js/jquery-migrate-1.2.1.min.js"></script>
 
-	<link rel="shortcut icon" href="images/old_PE_logo.JPG" type="image/x-icon" />
+	<link rel="shortcut icon" href="../images/old_PE_logo.JPG" type="image/x-icon" />
 
 
 	<script src="component/jquery/jquery-3.2.1.min.js"></script>
@@ -127,61 +127,61 @@ require('constant.php');
 		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 	<!-- Stylesheets - MedigoBlue -->
-	<link rel="stylesheet" href="/bootstrap/bootstrap.css">
-	<link rel="stylesheet" href="/css/misc.css">
-	<link rel="stylesheet" href="/css/blue-scheme.css">
+	<link rel="stylesheet" href="../bootstrap/bootstrap.css">
+	<link rel="stylesheet" href="../css/misc.css">
+	<link rel="stylesheet" href="../css/blue-scheme.css">
 
 	<!-- JavaScripts MedigoBlue -->
-	<script src="/js/jquery-1.10.2.min.js"></script>
-	<script src="/js/jquery-migrate-1.2.1.min.js"></script>
+	<script src="../js/jquery-1.10.2.min.js"></script>
+	<script src="../js/jquery-migrate-1.2.1.min.js"></script>
 
-	<link rel="shortcut icon" href="images/PE_logo.png" type="image/x-icon" />
+	<link rel="shortcut icon" href="../images/PE_logo.png" type="image/x-icon" />
 
 	<!-- SITE HEADER -->
 	<div class="responsive_menu">
 		<ul class="main_menu">
-			<li><a href="/index.html">Home</a></li>
-			<li><a href="/teach-in-china/teach-in-china.html">Teach In China</a>
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="../teach-in-china/teach-in-china.html">Teach In China</a>
 				<ul>
-					<li><a href="/teach-in-china/why-teach-in-china.html">Why teach in China</a></li>
-					<li><a href="/teach-in-china/the-process.html">The Process</a></li>
-					<li><a href="/pdfs/check-list.pdf">Check-list</a></li>
+					<li><a href="../teach-in-china/why-teach-in-china.html">Why teach in China</a></li>
+					<li><a href="../teach-in-china/the-process.html">The Process</a></li>
+					<li><a href="../pdfs/check-list.pdf">Check-list</a></li>
 				</ul>
 			</li>
-			<li><a href="/about/pe-history.html">About Us</a>
+			<li><a href="../about/pe-history.html">About Us</a>
 				<ul>
-					<li><a href="/about/pe-history.html">PE History</a></li>
-					<li><a href="/about/pe-history.html#our-philosphy">Our Philosophy</a></li>
-					<li><a href="/about/pe-history.html#our-brand">Our Brand</a></li>
-					<li><a href="/about/pe-history.html#our-books">Our Books</a></li>
-					<li><a href="/about/milestones.html">PE Milestone Timeline</a></li>
-					<li><a href="/about/locations.html">Branch Locations</a></li>
+					<li><a href="../about/pe-history.html">PE History</a></li>
+					<li><a href="../about/pe-history.html#our-philosphy">Our Philosophy</a></li>
+					<li><a href="../about/pe-history.html#our-brand">Our Brand</a></li>
+					<li><a href="../about/pe-history.html#our-books">Our Books</a></li>
+					<li><a href="../about/milestones.html">PE Milestone Timeline</a></li>
+					<li><a href="../about/locations.html">Branch Locations</a></li>
 				</ul>
 			</li>
-			<li><a href="/our-teachers/our-teachers.html">Our Teachers</a>
+			<li><a href="../our-teachers/our-teachers.html">Our Teachers</a>
 				<ul>
-					<li><a href="/our-teachers/our-teachers.html">Who are they</a></li>
-					<li><a href="/our-teachers/why-they-teach.html">Why they teach for PE</a></li>
-					<li><a href="/our-teachers/training.html">Training</a></li>
-					<li><a href="/our-teachers/growth.html">Growth</a></li>
+					<li><a href="../our-teachers/our-teachers.html">Who are they</a></li>
+					<li><a href="../our-teachers/why-they-teach.html">Why they teach for PE</a></li>
+					<li><a href="../our-teachers/training.html">Training</a></li>
+					<li><a href="../our-teachers/growth.html">Growth</a></li>
 				</ul>
 			</li>
-			<li><a href="/our-students/our-students.html">Our Students</a>
+			<li><a href="../our-students/our-students.html">Our Students</a>
 				<ul>
-					<li><a href="/our-students/small-kids.html">Pre-K Students 3-6yrs</a></li>
-					<li><a href="/our-students/big-kids.html">K-6 Students 6-12yrs</a></li>
-					<li><a href="/our-students/college-kids.html">Jr/Sr High Students 13-18yrs</a></li>
-					<li><a href="/our-students/student-spotlight.html">Student Spotlight</a></li>
-					<li><a href="/our-students/cpp.html">CPP Program</a></li>
+					<li><a href="../our-students/small-kids.html">Pre-K Students 3-6yrs</a></li>
+					<li><a href="../our-students/big-kids.html">K-6 Students 6-12yrs</a></li>
+					<li><a href="../our-students/college-kids.html">Jr/Sr High Students 13-18yrs</a></li>
+					<li><a href="../our-students/student-spotlight.html">Student Spotlight</a></li>
+					<li><a href="../our-students/cpp.html">CPP Program</a></li>
 				</ul>
 			</li>
-			<li><a href="/changchun/changchun.html">Changchun</a>
+			<li><a href="../changchun/changchun.html">Changchun</a>
 				<ul>
-					<li><a href="/changchun/changchun.html">The City</a></li>
-					<li><a href="/changchun/fun-facts.html">Fun Facts</a></li>
+					<li><a href="../changchun/changchun.html">The City</a></li>
+					<li><a href="../changchun/fun-facts.html">Fun Facts</a></li>
 				</ul>
 			</li>
-			<li><a href="/php-contact-form-with-google-captcha-chris/index.php">Contact</a></li>
+			<li><a href="../php-contact-form-with-google-captcha-chris/index.php">Contact</a></li>
 		</ul> <!-- /.main_menu -->
 	</div> <!-- /.responsive_menu -->
 
@@ -193,8 +193,8 @@ require('constant.php');
 				<div class="col-md-12">
 
 					<div class="pull-left logo">
-						<a href="index.html">
-							<img style="max-height:50px;" src="/images/old_PE_logo.JPG" alt="Perfect English">
+						<a href="../index.html">
+							<img style="max-height:50px;" src="../images/old_PE_logo.JPG" alt="Perfect English">
 						</a>
 					</div> <!-- /.logo -->
 
@@ -202,49 +202,49 @@ require('constant.php');
 
 						<nav class="main-nav visible-md visible-lg">
 							<ul class="sf-menu">
-								<li><a href="/index.html">Home</a></li>
-								<li><a href="/teach-in-china/teach-in-china.html">Teach In China</a>
+								<li><a href="../index.html">Home</a></li>
+								<li><a href="../teach-in-china/teach-in-china.html">Teach In China</a>
 									<ul>
-										<li><a href="/teach-in-china/why-teach-in-china.html">Why teach in China</a></li>
-										<li><a href="/teach-in-china/the-process.html">The Process</a></li>
-										<li><a href="/pdfs/check-list.pdf">Check-list</a></li>
+										<li><a href="../teach-in-china/why-teach-in-china.html">Why teach in China</a></li>
+										<li><a href="../teach-in-china/the-process.html">The Process</a></li>
+										<li><a href="../pdfs/check-list.pdf">Check-list</a></li>
 									</ul>
 								</li>
-								<li><a href="/about/pe-history.html">About Us</a>
+								<li><a href="../about/pe-history.html">About Us</a>
 									<ul>
-										<li><a href="/about/pe-history.html">PE History</a></li>
-										<li><a href="/about/pe-history.html#our-philosphy">Our Philosophy</a></li>
-										<li><a href="/about/pe-history.html#our-brand">Our Brand</a></li>
-										<li><a href="/about/pe-history.html#our-books">Our Books</a></li>
-										<li><a href="/about/milestones.html">PE Milestone Timeline</a></li>
-										<li><a href="/about/locations.html">Branch Locations</a></li>
+										<li><a href="../about/pe-history.html">PE History</a></li>
+										<li><a href="../about/pe-history.html#our-philosphy">Our Philosophy</a></li>
+										<li><a href="../about/pe-history.html#our-brand">Our Brand</a></li>
+										<li><a href="../about/pe-history.html#our-books">Our Books</a></li>
+										<li><a href="../about/milestones.html">PE Milestone Timeline</a></li>
+										<li><a href="../about/locations.html">Branch Locations</a></li>
 									</ul>
 								</li>
-								<li><a href="/our-teachers/our-teachers.html">Our Teachers</a>
+								<li><a href="../our-teachers/our-teachers.html">Our Teachers</a>
 									<ul>
-										<li><a href="/our-teachers/our-teachers.html">Who are they</a></li>
-										<li><a href="/our-teachers/why-they-teach.html">Why they teach for PE</a></li>
-										<li><a href="/our-teachers/training.html">Training</a></li>
-										<li><a href="/our-teachers/growth.html">Growth</a></li>
+										<li><a href="../our-teachers/our-teachers.html">Who are they</a></li>
+										<li><a href="../our-teachers/why-they-teach.html">Why they teach for PE</a></li>
+										<li><a href="../our-teachers/training.html">Training</a></li>
+										<li><a href="../our-teachers/growth.html">Growth</a></li>
 									</ul>
 								</li>
-								<li><a href="/our-students/our-students.html">Our Students</a>
+								<li><a href="../our-students/our-students.html">Our Students</a>
 									<ul>
-										<li><a href="/our-students/small-kids.html">Pre-K Students 3-6yrs</a></li>
-										<li><a href="/our-students/big-kids.html">K-6 Students 6-12yrs</a></li>
-										<li><a href="/our-students/college-kids.html">Jr/Sr High Students 13-18yrs</a>
+										<li><a href="../our-students/small-kids.html">Pre-K Students 3-6yrs</a></li>
+										<li><a href="../our-students/big-kids.html">K-6 Students 6-12yrs</a></li>
+										<li><a href="../our-students/college-kids.html">Jr/Sr High Students 13-18yrs</a>
 										</li>
-										<li><a href="/our-students/student-spotlight.html">Student Spotlight</a></li>
-										<li><a href="/our-students/cpp.html">CPP Program</a></li>
+										<li><a href="../our-students/student-spotlight.html">Student Spotlight</a></li>
+										<li><a href="../our-students/cpp.html">CPP Program</a></li>
 									</ul>
 								</li>
-								<li><a href="/changchun/changchun.html">Changchun</a>
+								<li><a href="../changchun/changchun.html">Changchun</a>
 									<ul>
-										<li><a href="/changchun/changchun.html">The City</a></li>
-										<li><a href="/changchun/fun-facts.html">Fun Facts</a></li>
+										<li><a href="../changchun/changchun.html">The City</a></li>
+										<li><a href="../changchun/fun-facts.html">Fun Facts</a></li>
 									</ul>
 								</li>
-								<li><a href="/php-contact-form-with-google-captcha-chris/index.php">Contact</a></li>
+								<li><a href="../php-contact-form-with-google-captcha-chris/index.php">Contact</a></li>
 							</ul> <!-- /.sf-menu -->
 						</nav> <!-- /.main-nav -->
 
@@ -293,7 +293,7 @@ require('constant.php');
 							<h1>Get In Touch With Us</h1>
 							<p>Get more infromation or send us your CV for employment</p>
 							<p>If you are interested in coming to China to work as a teacher please contact us via email or if you are currently in China you can call the number listed below.  Please note the number listed is English ONLY.</p>
-							<p>Please <a href="/teach-in-china/teach-in-china">check our website</a> for information on what you will need in order to work and teach in China.</p>
+							<p>Please <a href="../teach-in-china/teach-in-china">check our website</a> for information on what you will need in order to work and teach in China.</p>
 							<br>
 							<p>Perfect English Training School
 							<br>2400 Tongzhi Street (2nd floor Torch Bldg)
@@ -345,7 +345,7 @@ require('constant.php');
 			<div class="container">
 				<div class="row">
 					<div class="col-md-offset-2 col-md-8">
-						<p class="larger-text">Interested in teaching English in China? Go ahead and go through the <a href="/pdfs/check-list.pdf">Check-List</a> to make sure you're on track!</p>
+						<p class="larger-text">Interested in teaching English in China? Go ahead and go through the <a href="../pdfs/check-list.pdf">Check-List</a> to make sure you're on track!</p>
 					</div> <!-- /.col-md-8 -->
 				</div> <!-- /.row -->
 			</div> <!-- /.container -->
@@ -358,13 +358,13 @@ require('constant.php');
 				<div class="col-md-12">
 					<nav class="footer-nav clearfix">
 						<ul class="footer-menu">
-							<li><a href="/index.html">Home</a></li>
-							<li><a href="/teach-in-china/teach-in-china.html">Teach In China</a></li>
-							<li><a href="/about/pe-history.html">About Us</a></li>
-							<li><a href="/our-teachers/our-teachers.html">Our Teachers</a></li>
-							<li><a href="/our-students/our-students.html">Our Students</a></li>
-							<li><a href="/changchun/changchun.html">Changchun</a></li>
-							<li><a href="/php-contact-form-with-google-captcha-chris/index.php">Contact</a></li>
+							<li><a href="../index.html">Home</a></li>
+							<li><a href="../teach-in-china/teach-in-china.html">Teach In China</a></li>
+							<li><a href="../about/pe-history.html">About Us</a></li>
+							<li><a href="../our-teachers/our-teachers.html">Our Teachers</a></li>
+							<li><a href="../our-students/our-students.html">Our Students</a></li>
+							<li><a href="../changchun/changchun.html">Changchun</a></li>
+							<li><a href="../php-contact-form-with-google-captcha-chris/index.php">Contact</a></li>
 						</ul> <!-- /.footer-menu -->
 					</nav> <!-- /.footer-nav -->
 				</div> <!-- /.col-md-12 -->
@@ -382,8 +382,8 @@ require('constant.php');
 	<!-- END - SITE FOOTER -->
 
 	<!-- Scripts -->
-	<script src="/js/min/plugins.min.js"></script>
-	<script src="/js/min/medigo-custom.min.js"></script>
+	<script src="../js/min/plugins.min.js"></script>
+	<script src="../js/min/medigo-custom.min.js"></script>
 	<script>
         function initialize() {
           var mapOptions = {
