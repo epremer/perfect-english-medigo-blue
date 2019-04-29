@@ -443,7 +443,7 @@ input.mainBtn {
 }
 
 #homeIntro {
-  background-image: url("../images/teach-kids.jpg");
+  background-image: url("../images/sp");
 }
 
 #portfolio {
@@ -481,7 +481,7 @@ input.mainBtn {
 }
 
 .parallax-overlay {
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: rgba(202,204,206, 0.85);
 }
 
 .pageTitle {
