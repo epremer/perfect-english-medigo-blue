@@ -443,7 +443,7 @@ input.mainBtn {
 }
 
 #homeIntro {
-  background-image: url("images/sports_day_group.jpg");
+  background-image: url("../images/sports_day_group.jpg");
 }
 
 #portfolio {
@@ -455,11 +455,11 @@ input.mainBtn {
 }
 
 #blogPosts {
-  background-image: url("../images/includes/blogPosts.jpg");
+  background-color: #0B0B61;
 }
 
 #blog {
-  background-image: url("../images/includes/blog.jpg");
+  background-color: #0B0B61;
 }
 
 #blogId {
