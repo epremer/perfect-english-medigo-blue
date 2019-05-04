@@ -1372,7 +1372,7 @@ blockquote {
 
 .flex-container {
   display: flex;
-  justify-content: center:
+  justify-content: center;
 }
 
 @media only screen and (max-width: 764px) {
