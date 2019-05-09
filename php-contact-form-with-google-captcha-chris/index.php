@@ -28,7 +28,7 @@ require('constant.php');
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="../bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="../css/misc.css">
-	<link rel="stylesheet" href="../css/blue-scheme.css">
+	<link rel="stylesheet" href="/css/blue-scheme.css">
 	
 	<!-- JavaScripts -->
 	<script src="../js/jquery-1.10.2.min.js"></script>
@@ -137,6 +137,7 @@ require('constant.php');
 
 	<link rel="shortcut icon" href="../images/PE_logo.png" type="image/x-icon" />
 
+
 	<!-- SITE HEADER -->
 	<div class="responsive_menu">
 		<ul class="main_menu">
@@ -145,7 +146,7 @@ require('constant.php');
 				<ul>
 					<li><a href="../teach-in-china/why-teach-in-china.html">Why teach in China</a></li>
 					<li><a href="../teach-in-china/the-process.html">The Process</a></li>
-					<li><a href="../pdfs/check-list.pdf">Check-list</a></li>
+					<li><a href="../pdfs/check-list.pdf" target="_blank" rel="noopener noreferrer">Check-list</a></li>
 				</ul>
 			</li>
 			<li><a href="../about/pe-history.html">About Us</a>
@@ -160,7 +161,7 @@ require('constant.php');
 			</li>
 			<li><a href="../our-teachers/our-teachers.html">Our Teachers</a>
 				<ul>
-					<li><a href="../our-teachers/our-teachers.html">Who are they</a></li>
+					<li><a href="../our-teachers/our-teachers.html">Who they are</a></li>
 					<li><a href="../our-teachers/why-they-teach.html">Why they teach for PE</a></li>
 					<li><a href="../our-teachers/training.html">Training</a></li>
 					<li><a href="../our-teachers/growth.html">Growth</a></li>
@@ -193,8 +194,8 @@ require('constant.php');
 				<div class="col-md-12">
 
 					<div class="pull-left logo">
-						<a href="../index.html">
-							<img style="max-height:50px;" src="../images/old_PE_logo.JPG" alt="Perfect English">
+						<a href="/index.html">
+							<img style="max-height:50px;" src="../images/PE_logo_full.png" alt="Perfect English">
 						</a>
 					</div> <!-- /.logo -->
 
@@ -205,9 +206,11 @@ require('constant.php');
 								<li><a href="../index.html">Home</a></li>
 								<li><a href="../teach-in-china/teach-in-china.html">Teach In China</a>
 									<ul>
-										<li><a href="../teach-in-china/why-teach-in-china.html">Why teach in China</a></li>
+										<li><a href="../teach-in-china/why-teach-in-china.html">Why teach in China</a>
+										</li>
 										<li><a href="../teach-in-china/the-process.html">The Process</a></li>
-										<li><a href="../pdfs/check-list.pdf">Check-list</a></li>
+										<li><a href="../pdfs/check-list.pdf" target="_blank"
+												rel="noopener noreferrer">Check-list</a></li>
 									</ul>
 								</li>
 								<li><a href="../about/pe-history.html">About Us</a>
@@ -222,7 +225,7 @@ require('constant.php');
 								</li>
 								<li><a href="../our-teachers/our-teachers.html">Our Teachers</a>
 									<ul>
-										<li><a href="../our-teachers/our-teachers.html">Who are they</a></li>
+										<li><a href="../our-teachers/our-teachers.html">Who they are</a></li>
 										<li><a href="../our-teachers/why-they-teach.html">Why they teach for PE</a></li>
 										<li><a href="../our-teachers/training.html">Training</a></li>
 										<li><a href="../our-teachers/growth.html">Growth</a></li>
@@ -254,11 +257,8 @@ require('constant.php');
 								<i class="fa fa-bars"></i>
 							</a>
 						</div> <!-- /responsive_navigation -->
-
 					</div> <!-- /.main-navigation -->
-
 				</div> <!-- /.col-md-12 -->
-
 			</div> <!-- /.row -->
 
 		</div> <!-- /.container -->
@@ -269,7 +269,7 @@ require('constant.php');
 	
 
 	<div class="first-widget parallax" id="contact">
-		<div class="parallax-overlay">
+		<div class="">
 			<div class="container pageTitle">
 				<div class="row">
 					<div class="col-md-6 col-sm-6">
@@ -280,7 +280,7 @@ require('constant.php');
 					</div> <!-- /.col-md-6 -->
 				</div> <!-- /.row -->
 			</div> <!-- /.container -->
-		</div> <!-- /.parallax-overlay -->
+		</div> <!-- -->
 	</div> <!-- /.pageTitle -->
 
 	<br><br>
@@ -289,7 +289,7 @@ require('constant.php');
 			<div class="row">
 				<div class="col-md-12">
 					<div class="content">
-						<div class="contact-wrapper">
+						<div class="">
 							<h1>Get In Touch With Us</h1>
 							<p>Get more infromation or send us your CV for employment</p>
 							<p>If you are interested in coming to China to work as a teacher please contact us via email or if you are currently in China you can call the number listed below.  Please note the number listed is English ONLY.</p>
@@ -313,14 +313,11 @@ require('constant.php');
 									<div class="field">			
 										<input type="text" id="email" name="email" placeholder="enter your email address here" title="Please enter your email address" class="required email" aria-required="true" required>
 									</div>
-									<div class="label">Phone Number:</div>
-									<div class="field">			
-										<input type="text" id="phone" name="phone" placeholder="enter your phone number here" title="Please enter your phone number" class="required phone" aria-required="true" required>
-									</div>
 									<div class="label">Comments:</div>
 									<div class="field">			
 										<textarea id="comment-content" name="content" placeholder="enter your comments here"></textarea>			
 									</div>
+									
 									<div class="g-recaptcha" data-sitekey="<?php echo SITE_KEY; ?>"></div>			
 									<div id="mail-status"></div>			
 									<button type="Submit" id="send-message" style="clear:both;">Send Message</button>

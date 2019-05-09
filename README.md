@@ -1,6 +1,8 @@
 Perfect English Website
 -------------------------------------------------------------------
-This is the code for my professional portfolio website, from an altered free online website template called Medigo - blue, by TemplateMo.com.
+This is the code for the Perfect English China website, from an 
+altered free online website template called Medigo - blue, by 
+TemplateMo.com.
 https://templatemo.com/tm-460-medigo
 
 -------------------------------------------------------------------

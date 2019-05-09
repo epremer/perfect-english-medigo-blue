@@ -5,7 +5,6 @@ require('constant.php');
     
     $user_name      = filter_var($_POST["name"], FILTER_SANITIZE_STRING);
     $user_email     = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
-    $user_phone     = filter_var($_POST["phone"], FILTER_SANITIZE_STRING);
     $content   = filter_var($_POST["content"], FILTER_SANITIZE_STRING);
     
     if(empty($user_name)) {
@@ -14,9 +13,6 @@ require('constant.php');
 	if(empty($user_email)) {
 		$empty[] = "<b>Email</b>";
 	}
-	if(empty($user_phone)) {
-		$empty[] = "<b>Phone Number</b>";
-	}	
 	if(empty($content)) {
 		$empty[] = "<b>Comments</b>";
 	}
@@ -50,7 +46,6 @@ require('constant.php');
 	$mailHeaders = "From: " . $user_name . "<" . $user_email . ">\r\n";
 	$mailBody = "User Name: " . $user_name . "\n";
 	$mailBody .= "User Email: " . $user_email . "\n";
-	$mailBody .= "Phone: " . $user_phone . "\n";
 	$mailBody .= "Content: " . $content . "\n";
 
 	if (mail($toEmail, "Contact Mail", $mailBody, $mailHeaders)) {
