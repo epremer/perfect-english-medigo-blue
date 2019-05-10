@@ -29,15 +29,21 @@
 	<link rel="stylesheet" href="../css/misc.css">
 	<link rel="stylesheet" href="../css/blue-scheme.css">
 
+
 	<!-- JavaScripts MedigoBlue -->
 	<script src="../js/jquery-1.10.2.min.js"></script>
 	<script src="../js/jquery-migrate-1.2.1.min.js"></script>
+
+	<!-- JS for Image Carousel -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
 	<link rel="shortcut icon" href="../images/PE_logo.png" type="image/x-icon" />
 
 </head>
 
 <body>
+
 	<!-- SITE HEADER -->
 	<div class="responsive_menu">
 		<ul class="main_menu">
@@ -46,7 +52,7 @@
 				<ul>
 					<li><a href="../teach-in-china/why-teach-in-china.html">Why teach in China</a></li>
 					<li><a href="../teach-in-china/the-process.html">The Process</a></li>
-					<li><a href="../pdfs/check-list.pdf">Check-list</a></li>
+					<li><a href="../pdfs/check-list.pdf" target="_blank" rel="noopener noreferrer">Check-list</a></li>
 				</ul>
 			</li>
 			<li><a href="../about/pe-history.html">About Us</a>
@@ -61,7 +67,7 @@
 			</li>
 			<li><a href="../our-teachers/our-teachers.html">Our Teachers</a>
 				<ul>
-					<li><a href="../our-teachers/our-teachers.html">Who are they</a></li>
+					<li><a href="../our-teachers/our-teachers.html">Who they are</a></li>
 					<li><a href="../our-teachers/why-they-teach.html">Why they teach for PE</a></li>
 					<li><a href="../our-teachers/training.html">Training</a></li>
 					<li><a href="../our-teachers/growth.html">Growth</a></li>
@@ -94,8 +100,8 @@
 				<div class="col-md-12">
 
 					<div class="pull-left logo">
-						<a href="../index.html">
-							<img style="max-height:50px;" src="../images/old_PE_logo.JPG" alt="Perfect English">
+						<a href="/index.html">
+							<img style="max-height:50px;" src="../images/PE_logo_full.png" alt="Perfect English">
 						</a>
 					</div> <!-- /.logo -->
 
@@ -109,7 +115,8 @@
 										<li><a href="../teach-in-china/why-teach-in-china.html">Why teach in China</a>
 										</li>
 										<li><a href="../teach-in-china/the-process.html">The Process</a></li>
-										<li><a href="../pdfs/check-list.pdf">Check-list</a></li>
+										<li><a href="../pdfs/check-list.pdf" target="_blank"
+												rel="noopener noreferrer">Check-list</a></li>
 									</ul>
 								</li>
 								<li><a href="../about/pe-history.html">About Us</a>
@@ -124,7 +131,7 @@
 								</li>
 								<li><a href="../our-teachers/our-teachers.html">Our Teachers</a>
 									<ul>
-										<li><a href="../our-teachers/our-teachers.html">Who are they</a></li>
+										<li><a href="../our-teachers/our-teachers.html">Who they are</a></li>
 										<li><a href="../our-teachers/why-they-teach.html">Why they teach for PE</a></li>
 										<li><a href="../our-teachers/training.html">Training</a></li>
 										<li><a href="../our-teachers/growth.html">Growth</a></li>
@@ -156,11 +163,8 @@
 								<i class="fa fa-bars"></i>
 							</a>
 						</div> <!-- /responsive_navigation -->
-
 					</div> <!-- /.main-navigation -->
-
 				</div> <!-- /.col-md-12 -->
-
 			</div> <!-- /.row -->
 
 		</div> <!-- /.container -->
@@ -193,13 +197,14 @@
 				<div class="post-blog">
 					<div class="blog-content">
 						<h1>Perfect English History</h1>
+						<span id="our-philosophy"></span>
 						<p>Perfect English (PE) is primarily an after-school English program. The business was launched
 							in January 2002 by two American teachers who came to China to make an impact on how English
 							was being taught, in the city of Changchun...</p>
 					</div> <!-- /.blog-content -->
 				</div> <!-- /.post-blog -->
 
-				<span id="our-philosophy"></span>
+
 				<div class="post-blog">
 					<div class="blog-content">
 						<h1>Our Philosophy</h1>
@@ -216,6 +221,7 @@
 							<li>Native speakers and qualified instructors</li>
 							<li>A proven curriculum with a strong emphasis on phonics</li>
 						</ul>
+						<span id="our-brand"></span>
 						<p>Over time this methodology has proven effective and has kept our school in
 							business and growing. We began with a single location and we have 10 locations
 							in Changchun and over 25 foreign teaching staff. Although our founders are no longer with
@@ -224,10 +230,11 @@
 					</div> <!-- /.blog-content -->
 				</div> <!-- /.post-blog -->
 
-				<span id="our-brand"></span>
+
 				<div class="post-blog">
 					<div class="blog-content">
 						<h1>Our Brand</h1>
+						<span id="our-books"></span>
 						<p>At Perfect English it’s our policy of ENGLISH ONLY that truly sets us apart. We do our best
 							to ONLY use English when teaching, and while our younger students may need help from time to
 							time with comprehension, we only permit Chinese in the classroom at those times. We strongly
@@ -238,7 +245,7 @@
 					</div> <!-- /.blog-content -->
 				</div> <!-- /.post-blog -->
 
-				<span id="our-books"></span>
+
 				<div class="post-blog">
 					<div class="blog-content">
 						<h1>Our Books</h1>
@@ -266,10 +273,16 @@
 						<p>It’s important to note that while we have books, it’s the teachers that make the difference.
 							The books provide the framework but it’s our teachers who build upon that platform. We make
 							learning fun but we never forget it must also have a purpose, with visible results. </p>
-						<h4><a target="_blank" href="/our-students/cpp.html">College Prep Program (CPP)</a></h4>
-							<p>At the highest level, the coursework is based on
-							years of experience working with students who will attend college abroad. The emphasis at this level is to teach:
-							vocabulary, oral, listening, reading, and writing skills at the college level. 
+					</div> <!-- /.blog-content -->
+				</div> <!-- /.post-blog -->
+
+				<div class="post-blog">
+					<div class="blog-content">
+						<h1><a target="_blank" href="/our-students/cpp.html">College Prep Program (CPP)</a></h1>
+						<p>At the highest level, the coursework is based on
+							years of experience working with students who will attend college abroad. The emphasis at
+							this level is to teach:
+							vocabulary, oral, listening, reading, and writing skills at the college level.
 						</p>
 						<p>PE is truly living up to its motto; “Quality Education First” this is at the core of all we
 							do.</p>
@@ -291,18 +304,19 @@
 						<div class="pad-30-r">
 							<p class="larger-text">Interested in teaching English in China? Go ahead and reach out on
 								our <a href="../php-contact-form-with-google-captcha-chris/index.php">contact page</a>.
-								We'll be pleased to answer you within a few
-								hours.</p>
+								We'll be pleased to
+								answer you within 24 hours.</p>
 						</div>
-						<div>
-							<button class="pe_button static-info-project">CONTACT US</button>
-						</div>
+						<a href="../php-contact-form-with-google-captcha-chris/index.php">
+							<div>
+								<button class="pe_button static-info-project">CONTACT US</button>
+							</div>
+						</a>
 					</div>
 				</div> <!-- /.col-md-8 -->
 			</div> <!-- /.row -->
 		</div> <!-- /.container -->
 	</div> <!-- /.static-info-project -->
-
 
 	<!-- SITE FOOTER -->
 	<footer class="site-footer">
