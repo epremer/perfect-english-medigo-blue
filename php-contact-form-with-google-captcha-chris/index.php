@@ -293,7 +293,7 @@ require('constant.php');
 							<h1>Get In Touch With Us</h1>
 							<p>Get more infromation or send us your CV for employment</p>
 							<p>If you are interested in coming to China to work as a teacher please contact us via email or if you are currently in China you can call the number listed below.  Please note the number listed is English ONLY.</p>
-							<p>Please <a href="../teach-in-china/teach-in-china">check our website</a> for information on what you will need in order to work and teach in China.</p>
+							<p>Please <a href="../teach-in-china/teach-in-china.html">check our website</a> for information on what you will need in order to work and teach in China.</p>
 							<br>
 							<p>Perfect English Training School
 							<br>2400 Tongzhi Street (2nd floor Torch Bldg)
