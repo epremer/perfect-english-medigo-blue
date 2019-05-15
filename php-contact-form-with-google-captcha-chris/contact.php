@@ -58,7 +58,7 @@ require('constant.php');
 		  }	
 	}
 	// EMAIL TO BE CONTACTED //
-	$toEmail = "lizz4him@gmail.com";  // change this email to wherever you want messages to be sent
+	$toEmail = "below24217@mypacks.net";  // change this email to wherever you want messages to be sent
 	$mailHeaders = "From: " . $user_name . "<" . $user_email . ">\r\n";
 	$mailBody = "User Name: " . $user_name . "\n";
 	$mailBody .= "User Email: " . $user_email . "\n";
