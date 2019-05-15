@@ -34,7 +34,7 @@ require('constant.php');
 	<script src="../js/jquery-1.10.2.min.js"></script>
 	<script src="../js/jquery-migrate-1.2.1.min.js"></script>
 
-	<link rel="shortcut icon" href="../images/old_PE_logo.JPG" type="image/x-icon" />
+	<link rel="shortcut icon" href="../images/logos/PE_logo.JPG" type="image/x-icon" />
 
 
 	<script src="component/jquery/jquery-3.2.1.min.js"></script>
@@ -135,7 +135,7 @@ require('constant.php');
 	<script src="../js/jquery-1.10.2.min.js"></script>
 	<script src="../js/jquery-migrate-1.2.1.min.js"></script>
 
-	<link rel="shortcut icon" href="../images/PE_logo.png" type="image/x-icon" />
+	<link rel="shortcut icon" href="../images/logos/PE_logo.JPG" type="image/x-icon" />
 
 
 	<!-- SITE HEADER -->
@@ -195,7 +195,7 @@ require('constant.php');
 
 					<div class="pull-left logo">
 						<a href="/index.html">
-							<img style="max-height:50px;" src="../images/PE_logo_full.png" alt="Perfect English">
+							<img style="max-height:50px;" src="../images/logos/PE_logo_full.png" alt="Perfect English">
 						</a>
 					</div> <!-- /.logo -->
 
@@ -313,11 +313,22 @@ require('constant.php');
 									<div class="field">			
 										<input type="text" id="email" name="email" placeholder="enter your email address here" title="Please enter your email address" class="required email" aria-required="true" required>
 									</div>
+
 									<div class="label">Comments:</div>
 									<div class="field">			
 										<textarea id="comment-content" name="content" placeholder="enter your comments here"></textarea>			
 									</div>
+
+									<div class="field">
+										<input type="checkbox" id="more_info" name="more_info" value="more_info" style="width: 20px">
+										Would you like more information?<br>
+									</div>
 									
+									<div class="field">
+										<input type="checkbox" id="become_teacher" name="become_teacher" value="become_teacher" style="width: 20px">
+										Would you like to become a teacher?<br>
+									</div>
+
 									<div class="g-recaptcha" data-sitekey="<?php echo SITE_KEY; ?>"></div>			
 									<div id="mail-status"></div>			
 									<button type="Submit" id="send-message" style="clear:both;">Send Message</button>
