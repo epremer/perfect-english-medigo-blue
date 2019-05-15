@@ -1068,3 +1068,14 @@ html[xmlns] .slides {
     right: 10px;
   }
 }
+
+
+/***** 
+   Carousel
+*****/
+
+.carousel-control {
+  padding-top:10%;
+  width:5%;
+}
+
