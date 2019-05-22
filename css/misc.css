@@ -1080,8 +1080,8 @@ html[xmlns] .slides {
 }
 
 .image-caption {
-  color: white;
-  background: rgba(216, 72, 5, 0); 
+  color: black;
+  background: rgb(255, 251, 3); 
   border-radius: 5px;
 }
 
